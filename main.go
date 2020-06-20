@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	b "github.com/KeiichiHirobe/gomodule-example-b"
-	c "github.com/KeiichiHirobe/gomodule-example-c"
+	c "github.com/KeiichiHirobe/gomodule-example-c/v2"
 )
 
 func main() {

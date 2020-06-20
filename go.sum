@@ -2,6 +2,8 @@ github.com/KeiichiHirobe/gomodule-example-b v1.0.0 h1:ir//siivdUJ4vQBVeINsPcAUiH
 github.com/KeiichiHirobe/gomodule-example-b v1.0.0/go.mod h1:TXdkCPHIuUW8RHanYEpQB/0L3/NM1nsZTS/d4znqOKg=
 github.com/KeiichiHirobe/gomodule-example-c v1.1.0 h1:rj8qW2uQ3E/RWPmEz76QXXzFSpA5fSI9AucwKmV5uLA=
 github.com/KeiichiHirobe/gomodule-example-c v1.1.0/go.mod h1:m10cgoUgOTbNGDjMp1fClysHixge3rFhjIcy25VsHxA=
+github.com/KeiichiHirobe/gomodule-example-c/v2 v2.0.0 h1:BFfRe4rKOCxQg56I9lJojkLxvD/m/gqjDJCQOciNL/8=
+github.com/KeiichiHirobe/gomodule-example-c/v2 v2.0.0/go.mod h1:+UE/4IT2qon8HWr1xMhwh8W6DV8GpjBt0JqD1LZQWks=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/konsorten/go-windows-terminal-sequences v1.0.3 h1:CE8S1cTafDpPvMhIxNJKvHsGVBgn1xWYf1NbHQhywc8=
