@@ -63,3 +63,16 @@ v1.1.0!!!!!!
 update by module b
 v2.0.0
 ```
+
+## A requires C1.2.0, B requires C1.1.0
+Author of C noticed that typo and changed func name from `GetDecolatedVersionConfirm` to   `GetDecoratedVersionConfirm` and tagged with V1.2.0 (Of course, this is bad manner since this is no backwards-incompatible change.)
+
+Minimal Version Selection select C1.2.0, and build failed because B uses `GetDecolatedVersionConfirm`(old name).
+
+After that, B author add `replace` as below to B's go.mod
+
+```
+replace github.com/KeiichiHirobe/gomodule-example-c => github.com/KeiichiHirobe/gomodule-example-c v1.1.0
+```
+
+But, this was ignored since B is not a top-level module, so build fail again.
